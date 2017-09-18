@@ -31,5 +31,10 @@ Here is a list of the required programs and libraries necessary for this lab ses
 ---
 ### Test script
 Open a jupyter notebook and run the following commands:
-- blahblah
+```python
+import pandas as pd
+import numpy as np
+import skelearn.datasets import fetch
+```
+
 

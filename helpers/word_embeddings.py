@@ -119,16 +119,3 @@ def cosine_measure(v1, v2):
     len1 = math.sqrt(dot_product(v1, v1))
     len2 = math.sqrt(dot_product(v2, v2))
     return prod / (len1 * len2)
-
-"""
-News Categorization Function : called from "news_embedding.ipynb"
-"""
-def format_rows(docs):
-    D = []
-    for d in docs.data:
-        temp_d = " ".join(d.split("\n")).strip('\n\t')
-        D.append([temp_d])
-    return D
-
-def format_labels(target, docs):
-    return docs.target_names[target]
