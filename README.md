@@ -6,7 +6,7 @@ This repository contains all the instructions and necessary code for Data Mining
 ### Computing Resources
 - Operating system: Preferably Linux or MacOS
 - RAM: 8GB
-- Disk space: Mininium 8GB
+- Disk space: Minimum 8GB
 
 ---
 ### Software Requirements
@@ -31,7 +31,7 @@ Here is a list of the required programs and libraries necessary for this lab ses
     - Install `nltk` library
 ---
 ### Test script
-Open a jupyter notebook and run the following commands. If you have properly installed all the necessary libraries you should see no error.
+Open a Jupyter notebook and run the following commands. If you have properly installed all the necessary libraries you should see no error.
 ```python
 import pandas as pd
 import numpy as np
@@ -44,12 +44,10 @@ import math
 %matplotlib inline
 
 # my functions
-import helpers.word2vec_helpers as wh
-import helpers.word_embeddings as we
 import helpers.data_mining_helpers as dmh
 import helpers.text_analysis as ta
 ```
 
 ---
 ### Preview of Complete Jupyter Notebook
-(Coming Soon)
+https://github.com/omarsar/data_mining_2017_fall_lab/blob/master/news_data_mining.ipynb
