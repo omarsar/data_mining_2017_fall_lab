@@ -11,30 +11,45 @@ This repository contains all the instructions and necessary code for Data Mining
 ---
 ### Software Requirements
 Here is a list of the required programs and libraries necessary for this lab session:
-- Python 3+ (Note: coding will be done strictly on Python 3)
+- [Python 3+](https://www.python.org/download/releases/3.0/) (Note: coding will be done strictly on Python 3)
     - Install latest version of Python 3
-- Anaconda environemnt or any other environement (recommended but not required)
+- [Anaconda](https://www.anaconda.com/download/) environemnt or any other environement (recommended but not required)
     - Install anaconda environment
-- Jupyter (Strongly recommended but not required)
+- [Jupyter](http://jupyter.org/) (Strongly recommended but not required)
     - Install jupyter
-- Scikit Learn
+- [Scikit Learn](http://scikit-learn.org/stable/index.html)
     - Install `sklearn` latest python library
-- Pandas
+- [Pandas](http://pandas.pydata.org/)
     - Install `pandas` python library
-- Numpy
+- [Numpy](http://www.numpy.org/)
     - Install `numpy` python library
-- Matplotlib
+- [Matplotlib](https://matplotlib.org/)
     - Install `maplotlib` for python
-- Plotly
+- [Plotly](https://plot.ly/)
     - Install and signup for `plotly`
-
+- [NLTK](http://www.nltk.org/)
+    - Install `nltk` library
 ---
 ### Test script
-Open a jupyter notebook and run the following commands:
+Open a jupyter notebook and run the following commands. If you have properly installed all the necessary libraries you should see no error.
 ```python
 import pandas as pd
 import numpy as np
-import skelearn.datasets import fetch
+import nltk
+from sklearn.datasets import fetch_20newsgroups
+from sklearn.feature_extraction.text import CountVectorizer
+import plotly.plotly as py
+import plotly.graph_objs as go
+import math
+%matplotlib inline
+
+# my functions
+import helpers.word2vec_helpers as wh
+import helpers.word_embeddings as we
+import helpers.data_mining_helpers as dmh
+import helpers.text_analysis as ta
 ```
 
-
+---
+### Preview of Complete Jupyter Notebook
+(Coming Soon)
