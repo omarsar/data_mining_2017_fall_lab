@@ -44,9 +44,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 import plotly.plotly as py
 import plotly.graph_objs as go
 import math
-import wordcloud as WordCloud
 %matplotlib inline
-
+from wordcloud import WordCloud
 # my functions
 import helpers.data_mining_helpers as dmh
 import helpers.text_analysis as ta
