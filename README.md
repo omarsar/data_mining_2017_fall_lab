@@ -29,6 +29,9 @@ Here is a list of the required programs and libraries necessary for this lab ses
     - Install and signup for `plotly`
 - [NLTK](http://www.nltk.org/)
     - Install `nltk` library
+- [WordCloud](https://github.com/amueller/word_cloud)
+    - Install library for generating word clouds
+
 ---
 ### Test script
 Open a Jupyter notebook and run the following commands. If you have properly installed all the necessary libraries you should see no error.
@@ -41,6 +44,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import plotly.plotly as py
 import plotly.graph_objs as go
 import math
+import wordcloud as WordCloud
 %matplotlib inline
 
 # my functions
